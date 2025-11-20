@@ -52,7 +52,7 @@ const LibraryCard = ({ name, description, link, archived = false, color = 'defau
 
     return (
         <div
-            className={`group relative flex flex-col h-full rounded-3xl border-2 ${theme.border} transition-all duration-500 ${archived ? 'opacity-50 grayscale hover:grayscale-0' : ''}`}
+            className={`group relative flex flex-col h-full rounded-3xl border-2 ${theme.border} transition-all duration-500`}
         >
             <div className="relative flex flex-col h-full bg-white/80 backdrop-blur-sm rounded-[20px] overflow-hidden z-10">
                 {/* Color accent bar - same color as border */}
@@ -74,7 +74,7 @@ const LibraryCard = ({ name, description, link, archived = false, color = 'defau
                         {name}
                     </h3>
 
-                    <p className="text-slate-600 mb-8 leading-relaxed flex-grow font-medium">
+                    <p className="text-slate-500 mb-8 leading-relaxed flex-grow font-medium">
                         {description}
                     </p>
 
