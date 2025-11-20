@@ -26,9 +26,11 @@ const Layout = ({ children }) => {
                                     href="https://fidalgoitsolutions.com.br"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="bg-slate-900 hover:bg-slate-800 text-white px-5 py-2.5 rounded-xl text-sm font-medium transition-all hover:scale-105 hover:shadow-lg"
+                                    className="relative px-5 py-2.5 rounded-xl text-sm font-medium text-white transition-all hover:scale-105 border-none"
                                 >
-                                    Fidalgo IT Solutions
+                                    <div className="absolute inset-0 bg-gradient-to-tr from-lusofonia-primary to-lusofonia-secondary rounded-xl opacity-80 blur-[2px]"></div>
+                                    <div className="absolute inset-0 bg-black/40 rounded-xl"></div>
+                                    <span className="relative z-10">Fidalgo IT Solutions</span>
                                 </a>
                             </div>
                         </div>

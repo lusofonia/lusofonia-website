@@ -104,10 +104,14 @@ const LibraryCard = ({ name, description, link, archived = false, color = 'defau
                             href={link}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="inline-flex items-center px-3 py-2 text-sm font-bold rounded-lg bg-lusofonia-primary text-white hover:bg-purple-600 transition-all duration-300 hover:scale-105 hover:shadow-lg group/link"
+                            className="relative inline-flex items-center px-3 py-2 text-sm font-bold rounded-lg text-white transition-all duration-300 hover:scale-105 border-none group/link"
                         >
-                            Conhecer projeto
-                            <ArrowRight className="ml-2 w-4 h-4 transition-transform duration-300 group-hover/link:translate-x-1" />
+                            <div className="absolute inset-0 bg-gradient-to-tr from-lusofonia-primary to-lusofonia-secondary rounded-lg opacity-80 blur-[2px]"></div>
+                            <div className="absolute inset-0 bg-black/40 rounded-lg"></div>
+                            <span className="relative z-10 flex items-center">
+                                Conhecer projeto
+                                <ArrowRight className="ml-2 w-4 h-4 transition-transform duration-300 group-hover/link:translate-x-1" />
+                            </span>
                         </a>
                     </div>
                 </div>
