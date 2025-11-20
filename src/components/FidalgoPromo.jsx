@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, Rocket, CheckCircle2 } from 'lucide-react';
+import fidalgoLogo from '../assets/fidalgo-logo-white.png';
 
 const FidalgoPromo = () => {
     return (
@@ -66,12 +67,12 @@ const FidalgoPromo = () => {
                             {/* Glass card */}
                             <div className="relative bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-8 md:p-10 shadow-2xl">
                                 <div className="flex items-center gap-5 mb-8">
-                                    <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-blue-600 to-indigo-600 flex items-center justify-center text-3xl font-bold text-white shadow-lg shadow-blue-500/20">
-                                        F
+                                    <div className="w-16 h-16 rounded-2xl bg-white/5 flex items-center justify-center p-2 border border-white/10">
+                                        <img src={fidalgoLogo} alt="Fidalgo IT Solutions" className="w-full h-full object-contain" />
                                     </div>
                                     <div>
                                         <h3 className="text-2xl font-bold text-white">Fidalgo IT Solutions</h3>
-                                        <p className="text-blue-400 font-medium">Software House Premium</p>
+                                        <p className="text-blue-400 font-medium">Transforme seu negócio com tecnologia</p>
                                     </div>
                                 </div>
 
