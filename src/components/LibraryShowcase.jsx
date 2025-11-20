@@ -70,10 +70,10 @@ const LibraryShowcase = () => {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
                     <h2 className="text-3xl md:text-4xl font-bold mb-4 bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent">
-                        Nossas Bibliotecas
+                        Código que Entende Português
                     </h2>
-                    <p className="text-slate-700 max-w-2xl mx-auto font-medium">
-                        Ferramentas poderosas e leves, desenvolvidas para resolver problemas reais de desenvolvimento em português.
+                    <p className="text-slate-700 max-w-2xl mx-auto font-medium text-lg leading-relaxed">
+                        Um ecossistema completo de bibliotecas open source projetadas especificamente para as nuances e complexidades da língua portuguesa.
                     </p>
                 </div>
 
