@@ -8,7 +8,8 @@ const libraries = [
         link: 'https://extenso.js.org',
         archived: false,
         color: 'blue',
-        stars: 270
+        stars: 270,
+        type: 'library'
     },
     {
         name: 'Conjugador',
@@ -16,7 +17,8 @@ const libraries = [
         link: 'https://github.com/lusofonia/conjugador',
         archived: false,
         color: 'emerald',
-        stars: 50
+        stars: 50,
+        type: 'library'
     },
     {
         name: 'Pluralizador.js',
@@ -24,7 +26,8 @@ const libraries = [
         link: 'https://github.com/lusofonia/pluralizador.js',
         archived: false,
         color: 'purple',
-        stars: 110
+        stars: 110,
+        type: 'library'
     },
     {
         name: 'Desacentuador',
@@ -32,7 +35,8 @@ const libraries = [
         link: 'https://github.com/lusofonia/desacentuador',
         archived: false,
         color: 'orange',
-        stars: 3
+        stars: 3,
+        type: 'library'
     },
     {
         name: 'Dicio',
@@ -40,7 +44,8 @@ const libraries = [
         link: 'https://github.com/lusofonia/dicio',
         archived: false,
         color: 'cyan',
-        stars: 55
+        stars: 55,
+        type: 'cli'
     },
     {
         name: 'Piii.js',
@@ -48,7 +53,8 @@ const libraries = [
         link: 'https://github.com/lusofonia/piii.js',
         archived: true,
         color: 'rose',
-        stars: 120
+        stars: 120,
+        type: 'library'
     }
 ].sort((a, b) => {
     // Arquivados sempre por último
