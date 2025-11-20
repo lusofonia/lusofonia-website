@@ -1,0 +1,8 @@
+# Cursor Rules
+
+## Commit Messages
+- Commit messages must be short and concise
+- Maximum 50 characters per commit message
+- Use imperative mood (e.g., "Fix bug" not "Fixed bug")
+- Focus on what the commit does, not why (unless necessary)
+
