@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ArrowRight, Sparkles, Code } from 'lucide-react';
+import { ArrowRight, Sparkles, Github } from 'lucide-react';
 
 const Hero = () => {
     return (
@@ -57,7 +57,7 @@ const Hero = () => {
                                 rel="noopener noreferrer"
                                 className="px-8 py-4 bg-white/5 text-white rounded-xl font-bold text-lg hover:bg-white/10 backdrop-blur-md border border-white/10 transition-all hover:scale-105 flex items-center justify-center"
                             >
-                                <Code className="mr-2 w-5 h-5" />
+                                <Github className="mr-2 w-5 h-5" />
                                 GitHub
                             </a>
                         </div>

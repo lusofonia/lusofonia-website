@@ -4,7 +4,7 @@ import LibraryCard from './LibraryCard';
 const libraries = [
     {
         name: 'Extenso.js',
-        description: 'Converta números em sua forma por extenso. Suporta números cardinais, ordinais e monetários com alta precisão.',
+        description: 'Converta números em sua forma por extenso com suporte para cardinais, ordinais e monetários.',
         link: 'https://extenso.js.org',
         archived: false,
         color: 'blue',
@@ -13,7 +13,7 @@ const libraries = [
     },
     {
         name: 'Conjugador',
-        description: 'Conjugação completa de verbos em português. Identifica tempos, modos e formas nominais automaticamente.',
+        description: 'Conjugação completa de verbos em português identificando tempos, modos e formas nominais.',
         link: 'https://github.com/lusofonia/conjugador',
         archived: false,
         color: 'emerald',
@@ -22,7 +22,7 @@ const libraries = [
     },
     {
         name: 'Pluralizador.js',
-        description: 'Regras complexas de pluralização para palavras em português, lidando com exceções e casos especiais.',
+        description: 'Regras complexas de pluralização para palavras em português com exceções e casos especiais.',
         link: 'https://github.com/lusofonia/pluralizador.js',
         archived: false,
         color: 'purple',
@@ -31,7 +31,7 @@ const libraries = [
     },
     {
         name: 'Desacentuador',
-        description: 'Remova acentos e caracteres especiais de strings de forma performática e segura.',
+        description: 'Remova acentos e caracteres especiais de strings de forma performática, segura e eficiente.',
         link: 'https://github.com/lusofonia/desacentuador',
         archived: false,
         color: 'orange',
@@ -40,7 +40,7 @@ const libraries = [
     },
     {
         name: 'Dicio',
-        description: 'Acesso programático a definições, sinônimos e informações gramaticais de palavras em português.',
+        description: 'Acesso programático a definições, sinônimos e informações gramaticais de palavras portuguesas.',
         link: 'https://github.com/lusofonia/dicio',
         archived: false,
         color: 'cyan',
@@ -49,7 +49,7 @@ const libraries = [
     },
     {
         name: 'Piii.js',
-        description: 'Filtro de palavrões e termos ofensivos em português.',
+        description: 'Filtro de palavrões e termos ofensivos em português para moderar conteúdo de forma automática.',
         link: 'https://github.com/lusofonia/piii.js',
         archived: true,
         color: 'rose',
