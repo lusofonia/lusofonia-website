@@ -146,7 +146,7 @@ const LibraryCard = ({ name, description, link, archived = false, color = 'defau
 
     return (
         <div
-            className={`group relative flex flex-col h-full rounded-3xl border-2 ${theme.border} ${theme.borderHover} transition-all duration-500 ${archived ? 'opacity-50 grayscale hover:grayscale-0' : ''}`}
+            className={`group relative flex flex-col h-full rounded-3xl border-2 ${theme.border} ${theme.borderHover} transition-all duration-500`}
         >
             <div className="relative flex flex-col h-full bg-white/80 backdrop-blur-sm rounded-[20px] overflow-hidden z-10">
                 {/* Color accent bar */}
@@ -179,7 +179,7 @@ const LibraryCard = ({ name, description, link, archived = false, color = 'defau
                             rel="noopener noreferrer"
                             className="inline-flex items-center text-sm font-bold transition-all duration-300 text-black group/link"
                         >
-                            Acessar Documentação
+                            Conhecer projeto
                             <ArrowRight className="ml-2 w-4 h-4 transition-transform duration-300 text-black group-hover/link:translate-x-2" />
                         </a>
                     </div>
