@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lusofonia.github.io/sitemap.xml
+
