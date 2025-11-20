@@ -63,7 +63,6 @@ const Layout = ({ children }) => {
                                 <li><a href="#" className="hover:text-lusofonia-primary transition-colors">Extenso.js</a></li>
                                 <li><a href="#" className="hover:text-lusofonia-primary transition-colors">Conjugador</a></li>
                                 <li><a href="#" className="hover:text-lusofonia-primary transition-colors">Pluralizador</a></li>
-                                <li><a href="#" className="hover:text-lusofonia-primary transition-colors">Dicio API</a></li>
                             </ul>
                         </div>
 
