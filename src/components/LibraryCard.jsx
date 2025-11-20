@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Box, Layers, Type, BookOpen, Archive, Code } from 'lucide-react';
+import { ArrowRight, Box, Layers, Type, BookOpen, Archive, Code, Star } from 'lucide-react';
 
 const getIcon = (name) => {
     const n = name.toLowerCase();
@@ -42,7 +42,7 @@ const colorVariants = {
     }
 };
 
-const LibraryCard = ({ name, description, link, archived = false, color = 'default', index = 0 }) => {
+const LibraryCard = ({ name, description, link, archived = false, color = 'default', stars = 0, index = 0 }) => {
     const Icon = getIcon(name);
     const theme = colorVariants[color] || colorVariants.default;
 
@@ -70,9 +70,17 @@ const LibraryCard = ({ name, description, link, archived = false, color = 'defau
                         )}
                     </div>
 
-                    <h3 className="text-2xl font-bold mb-3 text-black">
-                        {name}
-                    </h3>
+                    <div className="flex items-center justify-between mb-3">
+                        <h3 className="text-2xl font-bold text-black">
+                            {name}
+                        </h3>
+                        {stars > 0 && (
+                            <div className="flex items-center gap-1 text-slate-600">
+                                <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" />
+                                <span className="text-sm font-semibold">{stars}</span>
+                            </div>
+                        )}
+                    </div>
 
                     <p className="text-slate-500 mb-8 leading-relaxed flex-grow font-medium">
                         {description}

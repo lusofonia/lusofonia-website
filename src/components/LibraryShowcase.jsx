@@ -7,44 +7,56 @@ const libraries = [
         description: 'Converta números em sua forma por extenso. Suporta números cardinais, ordinais e monetários com alta precisão.',
         link: 'https://extenso.js.org',
         archived: false,
-        color: 'blue'
+        color: 'blue',
+        stars: 270
     },
     {
         name: 'Conjugador',
         description: 'Conjugação completa de verbos em português. Identifica tempos, modos e formas nominais automaticamente.',
         link: 'https://github.com/lusofonia/conjugador',
         archived: false,
-        color: 'emerald'
+        color: 'emerald',
+        stars: 50
     },
     {
         name: 'Pluralizador.js',
         description: 'Regras complexas de pluralização para palavras em português, lidando com exceções e casos especiais.',
         link: 'https://github.com/lusofonia/pluralizador.js',
         archived: false,
-        color: 'purple'
+        color: 'purple',
+        stars: 110
     },
     {
         name: 'Desacentuador',
         description: 'Remova acentos e caracteres especiais de strings de forma performática e segura.',
         link: 'https://github.com/lusofonia/desacentuador',
         archived: false,
-        color: 'orange'
+        color: 'orange',
+        stars: 3
     },
     {
         name: 'Dicio',
         description: 'Acesso programático a definições, sinônimos e informações gramaticais de palavras em português.',
         link: 'https://github.com/lusofonia/dicio',
         archived: false,
-        color: 'cyan'
+        color: 'cyan',
+        stars: 55
     },
     {
         name: 'Piii.js',
         description: 'Filtro de palavrões e termos ofensivos em português.',
         link: 'https://github.com/lusofonia/piii.js',
         archived: true,
-        color: 'rose'
+        color: 'rose',
+        stars: 120
     }
-];
+].sort((a, b) => {
+    // Arquivados sempre por último
+    if (a.archived && !b.archived) return 1;
+    if (!a.archived && b.archived) return -1;
+    // Ordenar por número de estrelas (maior para menor)
+    return b.stars - a.stars;
+});
 
 const LibraryShowcase = () => {
     return (
@@ -61,7 +73,7 @@ const LibraryShowcase = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {libraries.map((lib, index) => (
-                        <LibraryCard key={index} {...lib} index={index} />
+                        <LibraryCard key={lib.name} {...lib} index={index} />
                     ))}
                 </div>
             </div>
