@@ -25,7 +25,7 @@ const AdPopup = () => {
                     animate={{ opacity: 1, y: 0, scale: 1 }}
                     exit={{ opacity: 0, y: 20, scale: 0.95 }}
                     transition={{ type: "spring", stiffness: 300, damping: 25 }}
-                    className="fixed bottom-6 right-6 z-50 max-w-sm w-full md:w-[360px]"
+                    className="hidden md:block fixed bottom-6 right-6 z-50 max-w-sm w-full md:w-[360px]"
                 >
                     <div className="bg-gradient-to-br from-[#1a1025] to-[#0f0718] rounded-[32px] p-6 shadow-2xl border border-lusofonia-primary/30 relative overflow-hidden backdrop-blur-xl">
                         {/* Close Button */}
