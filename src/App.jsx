@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import LibraryShowcase from './components/LibraryShowcase';
 import FidalgoPromo from './components/FidalgoPromo';
 import About from './components/About';
+import AdPopup from './components/AdPopup';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <About />
       <LibraryShowcase />
       <FidalgoPromo />
+      <AdPopup />
     </Layout>
   );
 }
