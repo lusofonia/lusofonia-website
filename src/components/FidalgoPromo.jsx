@@ -92,17 +92,20 @@ const FidalgoPromo = () => {
                                     ))}
                                 </div>
 
-                                <div className="mt-10 pt-8 border-t border-white/10 flex justify-between items-center">
-                                    <div className="flex -space-x-3">
-                                        {[1, 2, 3, 4].map((i) => (
-                                            <div key={i} className="w-10 h-10 rounded-full bg-gray-800 border-2 border-[#05020a] flex items-center justify-center text-xs text-gray-400">
-                                                User
-                                            </div>
-                                        ))}
-                                    </div>
-                                    <div className="text-right">
-                                        <p className="text-2xl font-bold text-white">100%</p>
-                                        <p className="text-sm text-gray-500">Satisfação dos Clientes</p>
+                                <div className="mt-10 pt-8 border-t border-white/10">
+                                    <div className="grid grid-cols-3 gap-6 text-center">
+                                        <div>
+                                            <p className="text-3xl font-bold text-white mb-1">98%</p>
+                                            <p className="text-xs text-gray-400">Satisfação</p>
+                                        </div>
+                                        <div>
+                                            <p className="text-3xl font-bold text-white mb-1">150+</p>
+                                            <p className="text-xs text-gray-400">Projetos</p>
+                                        </div>
+                                        <div>
+                                            <p className="text-3xl font-bold text-white mb-1">10+</p>
+                                            <p className="text-xs text-gray-400">Anos de Experiência</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
