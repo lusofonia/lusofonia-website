@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Box, Layers, Type, BookOpen, Archive, Code, Star, Package, Terminal } from 'lucide-react';
+import { ArrowRight, Box, Layers, Type, BookOpen, Archive, Code, Github, Package, Terminal } from 'lucide-react';
 
 const getIcon = (name) => {
     const n = name.toLowerCase();
@@ -88,9 +88,9 @@ const LibraryCard = ({ name, description, link, archived = false, color = 'defau
                             {type === 'cli' ? 'CLI' : 'Biblioteca'}
                         </span>
                         {stars > 0 && (
-                            <div className="flex items-center gap-1 text-slate-600">
-                                <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-                                <span className="text-sm font-semibold">+{stars}</span>
+                            <div className="flex items-center gap-1.5 text-slate-600">
+                                <Github className="w-4 h-4" />
+                                <span className="text-sm font-semibold">+{stars} stars</span>
                             </div>
                         )}
                     </div>
