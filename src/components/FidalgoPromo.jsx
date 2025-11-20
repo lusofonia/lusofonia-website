@@ -5,13 +5,13 @@ import fidalgoLogo from '../assets/fidalgo-logo-white.png';
 
 const FidalgoPromo = () => {
     return (
-        <section className="py-32 relative overflow-hidden bg-[#05020a]">
+        <section className="py-20 md:py-32 relative overflow-hidden bg-[#05020a]">
             {/* Full width background effects */}
             <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-blue-900/20 via-[#05020a] to-[#05020a]" />
             <div className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-blue-500/50 to-transparent" />
 
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-                <div className="flex flex-col lg:flex-row items-center justify-between gap-20">
+                <div className="flex flex-col lg:flex-row items-center justify-between gap-12 lg:gap-20">
 
                     <div className="flex-1 text-left">
                         <motion.div
@@ -25,7 +25,7 @@ const FidalgoPromo = () => {
                                 Impulsionado por Fidalgo IT Solutions
                             </div>
 
-                            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white leading-tight">
+                            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-white leading-tight">
                                 Transformamos código em <br />
                                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">
                                     Resultados de Negócio

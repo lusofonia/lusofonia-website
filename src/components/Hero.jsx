@@ -4,7 +4,7 @@ import { ArrowRight, Sparkles, Github } from 'lucide-react';
 
 const Hero = () => {
     return (
-        <section className="relative pt-40 pb-40 overflow-hidden bg-lusofonia-bg">
+        <section className="relative pt-28 pb-20 md:pt-40 md:pb-40 overflow-hidden bg-lusofonia-bg">
             {/* Modern Gradient Background */}
             <div className="absolute inset-0">
                 <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full max-w-7xl opacity-30 pointer-events-none">
@@ -28,14 +28,14 @@ const Hero = () => {
                             </span>
                         </div>
 
-                        <h1 className="text-6xl md:text-8xl font-extrabold tracking-tight mb-8 leading-tight text-white">
+                        <h1 className="text-4xl md:text-6xl lg:text-8xl font-extrabold tracking-tight mb-6 md:mb-8 leading-tight text-white">
                             Código que fala <br />
                             <span className="bg-gradient-to-r from-lusofonia-primary via-lusofonia-secondary to-purple-400 bg-clip-text text-transparent drop-shadow-2xl">
                                 a sua língua.
                             </span>
                         </h1>
 
-                        <p className="text-xl md:text-2xl text-lusofonia-muted mb-12 leading-relaxed max-w-2xl mx-auto font-light">
+                        <p className="text-lg md:text-xl lg:text-2xl text-lusofonia-muted mb-8 md:mb-12 leading-relaxed max-w-2xl mx-auto font-light">
                             Um conjunto de ferramentas <span className="text-white font-medium">open source</span> robustas para processamento natural e manipulação da língua portuguesa.
                         </p>
 

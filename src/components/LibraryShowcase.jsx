@@ -67,7 +67,7 @@ const libraries = [
 
 const LibraryShowcase = () => {
     return (
-        <section id="libraries" className="py-20 bg-slate-50 relative">
+        <section id="libraries" className="py-16 md:py-20 bg-slate-50 relative">
             {/* Decorative Background */}
             <div className="absolute inset-0 opacity-[0.03]" style={{
                 backgroundImage: `radial-gradient(#4f46e5 1px, transparent 1px)`,
@@ -75,13 +75,13 @@ const LibraryShowcase = () => {
             }}></div>
 
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-                <div className="text-center mb-20">
+                <div className="text-center mb-12 md:mb-20">
                     <div className="inline-flex items-center gap-2 mb-6 px-4 py-2 rounded-full bg-white border border-slate-200 shadow-sm text-slate-600 text-sm font-semibold">
                         <Terminal className="w-4 h-4 text-lusofonia-primary" />
                         <span>Ecossistema Open Source</span>
                     </div>
                     
-                    <h2 className="text-4xl md:text-5xl font-extrabold mb-6 text-slate-900 tracking-tight">
+                    <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold mb-6 text-slate-900 tracking-tight">
                         Código que Entende <span className="text-transparent bg-clip-text bg-gradient-to-r from-lusofonia-primary to-lusofonia-secondary">Português</span>
                     </h2>
                     
