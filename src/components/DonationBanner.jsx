@@ -14,7 +14,7 @@ const DonationBanner = () => {
                             <span className="font-semibold text-slate-900">Apoie o projeto</span>
                         </div>
                         <p className="text-slate-600 text-sm leading-relaxed max-w-2xl pb-2">
-                            O Lusofonia é criado e mantido por <a href="https://matheusalves.com.br" target="_blank" rel="noopener noreferrer" className="text-lusofonia-primary hover:underline font-medium">Matheus Alves</a> e utilizado como vitrine para a <a href="https://fidalgoitsolutions.com.br" target="_blank" rel="noopener noreferrer" className="text-lusofonia-primary hover:underline font-medium">Fidalgo IT Solutions</a>. 
+                            O Lusofonia é criado e mantido por <a href="https://matheusalves.xyz" target="_blank" rel="noopener noreferrer" className="text-lusofonia-primary hover:underline font-medium">Matheus Alves</a> e utilizado como vitrine para a <a href="https://fidalgoitsolutions.com.br" target="_blank" rel="noopener noreferrer" className="text-lusofonia-primary hover:underline font-medium">Fidalgo IT Solutions</a>. 
                         </p>
                         <p className="text-slate-600 text-sm leading-relaxed max-w-2xl">
                             Como os projetos são open source e não geram lucro direto, sua doação ajuda a manter o foco e a evolução das ferramentas. Qualquer valor é bem-vindo!
